@@ -9,7 +9,7 @@ export default function Bridge() {
       height="704"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <title id="conf-city-title">
+      {/* <title id="conf-city-title">
         Line drawing of the Golden Gate Bridge in San Francisco.
       </title>
       <path d="M372.5 299.5L616.5 335" stroke="currentColor" />
@@ -120,7 +120,7 @@ export default function Bridge() {
       <path d="M511 208L511 316" stroke="currentColor" />
       <path d="M532 235L532 319" stroke="currentColor" />
       <path d="M553 261L553 322" stroke="currentColor" />
-      <path d="M571 282L571 325" stroke="currentColor" />
+      <path d="M571 282L571 325" stroke="currentColor" /> */}
     </svg>
-  )
+  );
 }

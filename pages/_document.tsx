@@ -1,11 +1,12 @@
-import Document, { Head, Html, Main, NextScript } from 'next/document'
+import Document, { Head, Html, Main, NextScript } from "next/document";
+import tg_logo from "/public/logo-png.png";
 
 class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
         <Head>
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="icon" href="/logo-png.ico" />
           <meta
             name="description"
             content="See pictures from Next.js Conf and the After Party."
@@ -15,9 +16,9 @@ class MyDocument extends Document {
             property="og:description"
             content="See pictures from Next.js Conf and the After Party."
           />
-          <meta property="og:title" content="Next.js Conf 2022 Pictures" />
+          <meta property="og:title" content="Trippy Gandalf Artfolio" />
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="Next.js Conf 2022 Pictures" />
+          <meta name="twitter:title" content="Trippy Gandalf Artfolio" />
           <meta
             name="twitter:description"
             content="See pictures from Next.js Conf and the After Party."
@@ -28,8 +29,8 @@ class MyDocument extends Document {
           <NextScript />
         </body>
       </Html>
-    )
+    );
   }
 }
 
-export default MyDocument
+export default MyDocument;
